@@ -59,7 +59,7 @@ body
   background-color: #369;
   border-radius: 30px;
   border: 2px solid #99f;
-  padding: 50px 50px;
+  padding: 20px 50px;
   color: #fff;
   text-align: center;
   display: none;
@@ -68,7 +68,7 @@ body
 {
   font-size: 28px;
   color: #fff;
-  margin: 20px 0 20px 30px;
+  margin: 20px 0 20px ;
 }
 .but_start_game
 {
@@ -119,5 +119,10 @@ body
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
+}
+.game_canvas
+{
+  width: 1000px;
+  height: 620px;
 }
 
