@@ -30,8 +30,8 @@ BubbleShoot.Game = (function($){
                requestAnimationID = setTimeout(renderFrame, 40);
            } else {
              BubbleShoot.ui.drawBoard(board);
-             $("#game").bind("click", clickGameScreen);
            }
+           $("#game").bind("click", clickGameScreen);
        };
        var getNextBubble = function(){
            var bubble = BubbleShoot.Bubble.create();

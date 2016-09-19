@@ -28,7 +28,7 @@ BubbleShoot.Board = (function($){
     };
     this.getBubblesAround = function(curRow, curCol){
       var bubbles = [];
-      for(var rowNum = curRow -1; rowNum < curRow+1; rowNum++){
+      for(var rowNum = curRow -1; rowNum <= curRow+1; rowNum++){
         for(var colNum = curCol-2; colNum <= curCol+2; colNum++){
           var bubbleAt = that.getBubbleAt(rowNum,colNum);
           if(bubbleAt && !(colNum == curCol && rowNum == curRow))
